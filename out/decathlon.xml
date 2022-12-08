@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<decathlon>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+    <score_board>
+        <participant>
+            <name>Mr. Mock</name>
+        </participant>
+        <total_score>0</total_score>
+        <events>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+            <event>
+                <properties>
+                    <name>Mock EventProperties</name>
+                    <unit>metres</unit>
+                </properties>
+                <score>0</score>
+                <performance>12.0</performance>
+            </event>
+        </events>
+    </score_board>
+</decathlon>

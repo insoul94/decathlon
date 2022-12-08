@@ -10,6 +10,7 @@ public abstract class AbstractSerializer<T extends Serializable> implements Seri
     public AbstractSerializer(Path output) throws IOException {
         this.output = output;
         if (!output.toFile().exists()) {
+            output.toFile().getParentFile().mkdirs();
             output.toFile().createNewFile();
             System.out.println("File created: " + output.getFileName());
         }

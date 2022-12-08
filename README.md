@@ -11,5 +11,5 @@ The rules for the point calculation can be found here: http://en.wikipedia.org/w
 <h4>OUTPUT</h4>
 XML file with results for each event for each athlete and with shared places in case of equal total points.
 
-<h5>How to run:</h5>
+<h4>How to run:</h4>
 Download the project and compile on your machine with Java 8.
