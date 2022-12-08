@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -21,7 +22,7 @@ class DecathlonXmlSerializerTest {
     private DecathlonXmlSerializer serializer;
 
     @BeforeEach
-    void setUp() {
+    void setUp() throws IOException {
         Path output = Paths.get("./out/decathlon.xml");
         serializer = new DecathlonXmlSerializer(output);
     }

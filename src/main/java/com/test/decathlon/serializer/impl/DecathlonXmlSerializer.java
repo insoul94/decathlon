@@ -8,6 +8,7 @@ import com.test.decathlon.serializer.AbstractSerializer;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import java.io.IOException;
 import java.nio.file.Path;
 
 /**
@@ -15,7 +16,7 @@ import java.nio.file.Path;
  */
 public class DecathlonXmlSerializer extends AbstractSerializer<Decathlon> implements DecathlonSerializer {
 
-    public DecathlonXmlSerializer(Path output) {
+    public DecathlonXmlSerializer(Path output) throws IOException {
         super(output);
     }
 

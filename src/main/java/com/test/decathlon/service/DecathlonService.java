@@ -24,9 +24,10 @@ public class DecathlonService {
     /**
      * Can accept various interfaces implementations to configure parsing/serialization of/to different file types,
      * input/output formats.
-     * @param propsFileParser must not be <code>null</code>
+     *
+     * @param propsFileParser   must not be <code>null</code>
      * @param resultsFileParser must not be <code>null</code>
-     * @param serializer must not be <code>null</code>
+     * @param serializer        must not be <code>null</code>
      */
     public DecathlonService(PropertiesFileParser propsFileParser,
                             ResultsFileParser resultsFileParser,
@@ -58,6 +59,7 @@ public class DecathlonService {
 
     /**
      * Only this method needed to be invoked to run the entire application logic.
+     *
      * @throws Exception while parsing or serialization
      */
     public void run() throws Exception {
@@ -65,21 +67,16 @@ public class DecathlonService {
         Map<Participant, List<Float>> resultsMap = resultsFileParser.parse();
         List<ScoreBoard> sbList = new ArrayList<>();
 
-        resultsMap.entrySet().stream()
-                .peek(res -> {
-                    ScoreBoard sb = DataUtil.mapToScoreBoard(res.getKey(), res.getValue(), epList);
-                    sbList.add(sb);
-                })
-                .count(); // Finish with terminal operation which runs through all elements
+        resultsMap.forEach((key, value) -> {
+            ScoreBoard sb = DataUtil.mapToScoreBoard(key, value, epList);
+            sbList.add(sb);
+        });
 
         sbList.stream()
                 .flatMap(sb -> sb.getEventList().stream())
-                .peek(DecathlonService::calculateScore)
-                .count();
+                .forEach(DecathlonService::calculateScore);
 
-        sbList.stream()
-                .peek(DecathlonService::calculateTotalScore)
-                .count();
+        sbList.forEach(DecathlonService::calculateTotalScore);
 
         decathlon = new Decathlon(sbList);
         calculatePlaces(decathlon);
@@ -140,7 +137,7 @@ public class DecathlonService {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < marks.length; i++) {
-            if (i == marks.length - 1 || marks[i] != marks[i+1]) {
+            if (i == marks.length - 1 || marks[i] != marks[i + 1]) {
                 sb.append(i + 1);
                 for (int j = Integer.parseInt(sb.substring(0, 1)) - 1; j < i + 1; j++) {
                     sbList.get(j).setPlace(sb.toString());

@@ -7,8 +7,7 @@ import com.test.decathlon.model.EventProperties;
 import com.test.decathlon.model.Participant;
 import com.test.decathlon.model.ScoreBoard;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static com.test.decathlon.model.Unit.*;
 import static java.lang.Float.parseFloat;
@@ -17,14 +16,17 @@ import static java.lang.Float.parseFloat;
  * Data parsing amd mapping utilities.
  */
 public class DataUtil {
-    private DataUtil() {}
+    private DataUtil() {
+    }
 
-    /**Parse performance into float from string according to input unit.
-     * @param str raw performance string value
+    /**
+     * Parse performance into float from string according to input unit.
+     *
+     * @param str  raw performance string value
      * @param unit of measurement
      * @return field performances parsed into metres, track performances - into seconds.
      * @throws InvalidDataException if invalid input data format or if unit is not <code>METRES</code>,
-     * <code>CENTIMETRES</code>, <code>SECONDS</code> nor <code>MINUTES_SECONDS</code>;
+     *                              <code>CENTIMETRES</code>, <code>SECONDS</code> nor <code>MINUTES_SECONDS</code>;
      */
     public static float parsePerformance(String str, Unit unit) throws InvalidDataException {
         if (unit == Unit.SECONDS || unit == Unit.MINUTES_SECONDS) {
@@ -71,27 +73,30 @@ public class DataUtil {
      * @throws InvalidDataException if doesn't match <code>Unit</code> descriptor
      */
     public static Unit parseUnit(String str) throws InvalidDataException {
-        if (str.equals(METRES.getDescriptor()))
-            return METRES;
-        else if (str.equals(CENTIMETRES.getDescriptor()))
-            return CENTIMETRES;
-        else if (str.equals(SECONDS.getDescriptor()))
-            return SECONDS;
-        else if (str.equals(MINUTES_SECONDS.getDescriptor()))
-            return MINUTES_SECONDS;
-        else
-            throw new InvalidDataException(String.format(
-                    "Unit descriptor must be '%s', '%s', '%s' or '%s'. Was: '%s'",
-                    CENTIMETRES.getDescriptor(), METRES.getDescriptor(),
-                    SECONDS.getDescriptor(), MINUTES_SECONDS.getDescriptor(), str)
-            );
+        Map<String, Unit> descriptorUnitMap = new HashMap<>();
+        for (Unit u : Unit.values()) {
+            descriptorUnitMap.put(u.getDescriptor(), u);
+        }
+
+        return Optional
+                .ofNullable(descriptorUnitMap.get(str))
+                .orElseThrow(() -> new InvalidDataException(
+                        String.format(
+                                "Unit descriptor must be '%s', '%s', '%s' or '%s'. Was: '%s'",
+                                CENTIMETRES.getDescriptor(),
+                                METRES.getDescriptor(),
+                                SECONDS.getDescriptor(),
+                                MINUTES_SECONDS.getDescriptor(),
+                                str)
+                ));
     }
 
 
     /**
      * Input string array contract:
-     *  <p> #1 - event name; #2, #3, #4 - A, B, C decathlon score formula parameters respectively, #5 - units of
-     *  performance used in formula
+     * <p> #1 - event name; #2, #3, #4 - A, B, C decathlon score formula parameters respectively, #5 - units of
+     * performance used in formula
+     *
      * @param arr
      * @return event properties
      * @throws InvalidDataException if cells number is not 5
@@ -114,7 +119,7 @@ public class DataUtil {
     /**
      * @param participant
      * @param performanceList must be size of 10
-     * @param epList must be size of 10
+     * @param epList          must be size of 10
      * @return
      */
     public static ScoreBoard mapToScoreBoard(Participant participant,

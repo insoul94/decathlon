@@ -1,5 +1,8 @@
 package com.test.decathlon.model;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Unique descriptors must be assigned for each enum member to operate with units.
  *
